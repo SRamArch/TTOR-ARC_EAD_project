@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/" audience="external"> <!-- EAD3 required element -->
+	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924"> <!-- EAD3 required element -->
+		<recordid instanceurl="https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf">1.1</recordid> <!-- EAD3 required element -->
+		<filedesc> <!-- EAD3 required element -->
+			<titlestmt> <!-- EAD3 required element -->
+				<titleproper>Fruitlands Shaker Photographic Collection, 1855-1984</titleproper> <!-- Required element within titlestmt -->
+			</titlestmt>
+			<publicationstmt>
+				<publisher>The Trustees of Reservations, Archives &amp; Research Center</publisher>
+				<date>April 2023</date>
+				<address>
+					<addressline>27 Everett Street</addressline>
+					<addressline>Sharon, MA 02067</addressline>
+				</address>
+				<p><ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p> <!--Creative Commons License-->
+			</publicationstmt>
+		</filedesc>
+		<maintenancestatus value="revised"/> <!-- EAD3 required element -->
+		<maintenanceagency countrycode="US"> <!-- EAD3 required element -->
+			<agencycode>MaShaTR</agencycode>
+			<agencyname>The Trustees of Reservations, Archives &amp; Research Center</agencyname>
+		</maintenanceagency>
+		<languagedeclaration>
+			<language langcode="eng">English</language>
+			<script scriptcode="latn">Latin</script>
+		</languagedeclaration>
+		<maintenancehistory> <!-- EAD3 required element -->
+			<maintenanceevent> <!-- EAD3 required element -->
+				<eventtype value="created"/> <!-- EAD3 required element -->
+				<eventdatetime standarddatetime="2023-04">April 2023</eventdatetime> <!-- EAD3 required element -->
+				<agenttype value="human"/> <!-- EAD3 required element -->
+				<agent>Stephanie Bennett Rahmat</agent> <!-- EAD3 required element -->
+			</maintenanceevent>
+			<maintenanceevent>
+				<eventtype value="updated"/>
+				<eventdatetime standarddatetime="2023-08">August 2023</eventdatetime><!--For FM.PH.S.Coll.1, modify the update event date as needed when the finding aid is updated.-->
+				<agenttype value="human"/>
+				<agent>Stephanie Bennett Rahmat</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+	</control>
+	<archdesc level="collection"> <!-- EAD3 required element -->
+		<did> <!-- EAD3 required element -->
+			<repository> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name and Location of Repository Element' -->
+				<corpname source="lcnaf" identifier="http://id.loc.gov/authorities/names/n85045974">
+					<part>The Trustees of Reservations</part>
+					<part>Archives &amp; Special Collections</part>
+				</corpname>
+				<address>
+					<addressline>27 Everett Street</addressline>
+					<addressline>Sharon, MA 02067</addressline>
+				</address>
+			</repository>
+			<origination source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79099490"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
+				<corpname>
+					<part>Shakers</part>
+				</corpname>
+			</origination>
+			<unittitle>Fruitlands Shaker Photographic Collection, 1855-1984</unittitle> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' -->
+			<unitid>FM.PH.S.Coll.1</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->
+			<unitdatestructured unitdatetype="inclusive"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Date Element' -->
+				<daterange>
+					<fromdate standarddate="1855">1855</fromdate>
+					<todate standarddate="1984">1984</todate>
+				</daterange>
+			</unitdatestructured>
+			<!--<unitdatestructured unitdatetype="bulk"> TTORARC Standard - Bulk dates are not listed in finding aids post year 2023
+				<daterange>
+					<fromdate standarddate="1900">1900</fromdate>
+					<todate standarddate="1981">1981</todate>
+				</daterange>
+			</unitdatestructured> -->
+			<physdescset> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Extent Element' -->
+				<physdescstructured physdescstructuredtype="carrier" coverage="whole" >
+					<quantity>10</quantity>
+					<unittype>boxes</unittype>
+				</physdescstructured>
+				<physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
+					<quantity>6.56</quantity>
+					<unittype>linear feet</unittype>
+				</physdescstructured>
+			</physdescset>
+			<langmaterial> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Language and Scripts of the Material Element' -->
+				<language langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
+			<p>Items in this collection do not circulate and may be used in-house only.</p>
+		</accessrestrict>
+		<userestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
+			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website: http://www.loc.gov/copyright/title17/.</p>
+		</userestrict>
+		<scopecontent> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Scope and Content Element' -->
+			<p>The Lowell Thomas Papers encompasses a wide range of materials documenting the life, family, and professional career of Lowell Thomas. These materials include correspondence, administrative and financial documents, manuscripts, printed materials, photographic materials, motion picture films, audio recordings, and memorabilia.</p>
+		</scopecontent>
+		<bioghist> <!-- Optional EAD3 element, added to comply with DACS single-level optimum requirement for 'Administrative/Biographical History Element' -->
+			<p>Lowell Jackson Thomas was born in Woodington, Ohio on 6 April 1892 to two school teachers, Harry G. Thomas and Harriet Wagner Thomas. The family did not remain in Darke County, Ohio for very long because Lowell's father wanted to become a doctor. Harry G. Thomas's pursuit of a medical degree led the family to Kirkman, Iowa where five-year-old Lowell was enrolled in school for the first time. Harry's studies soon led him to the University of Nebraska. Upon graduation, Harry G. Thomas followed his brother's suggestion to begin his medical practice in the twin mining boom towns of Cripple Creek and Victor, Colorado. It was here in the rugged American West that Lowell spent the better part of his childhood and young adult years.</p>
+		</bioghist>
+		<controlaccess> <!-- Optional EAD3 element, added to comply with DACS single-level optimum requirement for 'Access points' -->
+			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
+				<part localtype="surname">Thomas</part>
+				<part localtype="givenname">Lowell</part>
+				<part localtype="dates">1892-1981</part>
+			</persname>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85070753">
+				<part>Journalism</part>
+				<part>United States</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
+				<part>World War, 1939-1945</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
+				<part>World War, 1914-1918</part>
+				<part>Campaigns</part>
+				<part>Middle East</part>
+			</subject>
+		</controlaccess>
+	</archdesc>
+</ead>

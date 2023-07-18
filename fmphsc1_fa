@@ -35,7 +35,7 @@
 			</maintenanceevent>
 			<maintenanceevent>
 				<eventtype value="updated"/>
-				<eventdatetime standarddatetime="2023-08">August 2023</eventdatetime><!--For FM.PH.S.Coll.1, modify the update event date as needed when the finding aid is updated.-->
+				<eventdatetime standarddatetime="2023-08">August 2023</eventdatetime><!--ACTION ITEM: For FM.PH.S.Coll.1, modify the update eventdatetime when the finding aid is updated.-->
 				<agenttype value="human"/>
 				<agent>Stephanie Bennett Rahmat</agent>
 			</maintenanceevent>
@@ -59,14 +59,14 @@
 				</corpname>
 			</origination>
 			<unittitle>Fruitlands Shaker Photographic Collection, 1855-1984</unittitle> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' -->
-			<unitid>FM.PH.S.Coll.1</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->
+			<unitid countrycode="US" repositorycode="MaShaTR" label="Collection code">FM.PH.S.Coll.1</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->
 			<unitdatestructured unitdatetype="inclusive"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Date Element' -->
 				<daterange>
 					<fromdate standarddate="1855">1855</fromdate>
 					<todate standarddate="1984">1984</todate>
 				</daterange>
 			</unitdatestructured>
-			<!--<unitdatestructured unitdatetype="bulk"> TTORARC Standard - Bulk dates are not listed in finding aids post year 2023
+			<!--<unitdatestructured unitdatetype="bulk"> TTOR-ARC Standard - Bulk dates are not listed in finding aids post year 2023
 				<daterange>
 					<fromdate standarddate="1900">1900</fromdate>
 					<todate standarddate="1981">1981</todate>

@@ -2,7 +2,7 @@
 <?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/" audience="external"> <!-- EAD3 required element -->
 	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924"> <!-- EAD3 required element -->
-		<recordid instanceurl="https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf">1.1</recordid> <!-- EAD3 required element -->
+		<recordid instanceurl="https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf">https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf</recordid> <!-- EAD3 required element -->
 		<filedesc> <!-- EAD3 required element -->
 			<titlestmt> <!-- EAD3 required element -->
 				<titleproper>Fruitlands Shaker Photographic Collection, 1855-1984</titleproper> <!-- Required element within titlestmt -->
@@ -17,7 +17,7 @@
 				<p><ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p> <!--Creative Commons License-->
 			</publicationstmt>
 		</filedesc>
-		<maintenancestatus value="revised"/> <!-- EAD3 required element -->
+		<maintenancestatus value="new"/> <!-- EAD3 required element -->
 		<maintenanceagency countrycode="US"> <!-- EAD3 required element -->
 			<agencycode>MaShaTR</agencycode>
 			<agencyname>The Trustees of Reservations, Archives &amp; Research Center</agencyname>
@@ -86,6 +86,7 @@
 				<language langcode="eng">English</language>
 			</langmaterial>
 		</did>
+		<!--Stephanie Updated the document to FM.PH.S.Coll.1 up to this point. Past this point is the copy-paste example from EAD3 on Github-->
 		<accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>Items in this collection do not circulate and may be used in-house only.</p>
 		</accessrestrict>

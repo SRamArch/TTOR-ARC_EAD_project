@@ -2,10 +2,13 @@
 <?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/" audience="external"> <!-- EAD3 required element -->
 	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924"> <!-- EAD3 required element -->
-		<recordid instanceurl="https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf">https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf</recordid> <!-- EAD3 required element -->
+		<recordid instanceurl="https://github.com/SRamArch/TTOR-ARC_EAD_project/blob/main/fmphsc1_fa">FM.PH.S.Coll.1</recordid> <!-- EAD3 required element --><!--Stephanie linked the github repository here. Update with the XML instance if/when available.-->
+		<representation href="https://thetrustees.access.preservica.com/wp-content/uploads/sites/72/2023/05/FMPHSCOLL1_findingaid_shakerphotos_v2023a.pdf" linkrole="TTOR-ARC Preservica pdf">PDF version of the finding aid</representation>
 		<filedesc> <!-- EAD3 required element -->
 			<titlestmt> <!-- EAD3 required element -->
 				<titleproper>Fruitlands Shaker Photographic Collection, 1855-1984</titleproper> <!-- Required element within titlestmt -->
+				<author>by Stephanie Bennett Rahmat</author>
+				<sponsor>This project was made possible in part by the Institute of Museum and Library Services, MA-249607-OMS-21</sponsor>
 			</titlestmt>
 			<publicationstmt>
 				<publisher>The Trustees of Reservations, Archives &amp; Research Center</publisher>

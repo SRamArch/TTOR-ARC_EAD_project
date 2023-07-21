@@ -91,7 +91,7 @@
 		</did>
 		<accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>This collection is open for research. To preserve fragile items, access copies of these materials have been substituted throughout the collection. Direct use of fragile materials, including the glass plate negatives, is prohibited without the approval and supervision of an archivist.</p>
-			<p>The Fruitlands Shaker Photographic Collection documents a religious order and its members. Respect for the order’s beliefs and practices is implicit upon access and use of the collection.</p>
+			<p>The Fruitlands Shaker Photographic Collection documents a religious order and its members. Respect for the order&apos;s beliefs and practices is implicit upon access and use of the collection.</p>
 		</accessrestrict>
 		<userestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>CC BY-BC-ND The Fruitlands Shaker Photographic Collection is the physical property of The Trustees of Reservations. Literary rights, including copyright, belong to the authors or their legal heirs and assigns.</p>

@@ -105,22 +105,32 @@
 		</bioghist>
 		<!--Stephanie Updated the document to FM.PH.S.Coll.1 up to this point. Past this point is the copy-paste example from EAD3 on Github-->
 		<controlaccess> <!-- Optional EAD3 element, added to comply with DACS single-level optimum requirement for 'Access points' -->
-			<persname relator="creator" source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713">
-				<part localtype="surname">Thomas</part>
-				<part localtype="givenname">Lowell</part>
-				<part localtype="dates">1892-1981</part>
-			</persname>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85070753">
-				<part>Journalism</part>
-				<part>United States</part>
+			<corpname source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79099490">
+				<part>Shakers</part>
+			</corpname>
+			<corpname source="local">
+				<part>United Society of Believers in Christ&apos;s Second Appearing</part>
+			</corpname>			
+			<subject source="lcsh" identifier="https://id.loc.gov/authorities/subjects/sh85004426.html">
+				<part>Americana</part>
 			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85148273">
-				<part>World War, 1939-1945</part>
+			<subject source="local">
+				<part>American craft</part>
+			</subject>			
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85029011">
+				<part>Communal living</part>
 			</subject>
-			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008113810">
-				<part>World War, 1914-1918</part>
-				<part>Campaigns</part>
-				<part>Middle East</part>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85091267">
+				<part>New England--History</part>
+			</subject>			
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh2008109260">
+				<part>Photography--History</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85112549">
+				<part>Religion</part>
+			</subject>
+			<subject source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85112620">
+				<part>Religious communities</part>
 			</subject>
 		</controlaccess>
 	</archdesc>

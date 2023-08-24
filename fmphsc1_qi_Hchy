@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 	<items xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
 	<item>
-									<collection_code><![CDATA[FM.PH.S.Coll.1]]></collection_code>
-												<title><![CDATA[Fruitlands Shaker Photographic Collection]]></title>
-												<level_description_id>8</level_description_id>
-												<level_description_value><![CDATA[Establishing Collection]]></level_description_value>
-												<level_description_reference><![CDATA[establishing-collection]]></level_description_reference>
-												<level_description_full_record><![CDATA[]]></level_description_full_record>
-												<archive_id>271</archive_id>
-												<archive_value><![CDATA[FM.SHK - Fruitlands Shaker Collections - Collection]]></archive_value>
-												<archive_reference><![CDATA[fm-shk-fruitlands-shaker-collections-collection-271]]></archive_reference>
-												<archive_full_record><![CDATA[]]></archive_full_record>
-												<date_text></date_text>
-												<date_early>1855</date_early>
-												<date_late>1984</date_late>
-												<content><![CDATA[The Fruitlands Shaker Photograph Collection contains approximately 686 items and spans the years 1855 to 1984. It includes a variety of 19th- and 20th-century photographic formats, including prints; cartes-de-visite, cabinet cards, and other card photographs; stereographs; photographic postcards; glass plate negatives; 35mm film negatives; 4x5-inch film negatives; 35mm microfilm; and one tintype. A number of 19th and early 20th century photographers and photography studios are represented throughout the collection.
+		<collection_code><![CDATA[FM.PH.S.Coll.1]]></collection_code>
+			<title><![CDATA[Fruitlands Shaker Photographic Collection]]></title>
+			<level_description_id>8</level_description_id>
+			<level_description_value><![CDATA[Establishing Collection]]></level_description_value>
+			<level_description_reference><![CDATA[establishing-collection]]></level_description_reference>
+			<level_description_full_record><![CDATA[]]></level_description_full_record>
+			<archive_id>271</archive_id>
+			<archive_value><![CDATA[FM.SHK - Fruitlands Shaker Collections - Collection]]></archive_value>
+			<archive_reference><![CDATA[fm-shk-fruitlands-shaker-collections-collection-271]]></archive_reference>
+			<archive_full_record><![CDATA[]]></archive_full_record>
+			<date_text></date_text>
+			<date_early>1855</date_early>
+			<date_late>1984</date_late>
+			<content><![CDATA[The Fruitlands Shaker Photograph Collection contains approximately 686 items and spans the years 1855 to 1984. It includes a variety of 19th- and 20th-century photographic formats, including prints; cartes-de-visite, cabinet cards, and other card photographs; stereographs; photographic postcards; glass plate negatives; 35mm film negatives; 4x5-inch film negatives; 35mm microfilm; and one tintype. A number of 19th and early 20th century photographers and photography studios are represented throughout the collection.
 
 The collection is organized into ten series by Shaker community. The arrangement by community is consistent with the way the Shakers viewed themselves and follows the precedent set by Western Reserve Historical Society (WRHS) and the Library of Congress for the organization of Shaker materials. The WHRS framework is adopted by most Shaker archives. As they make up the bulk of the collection, the first three series contain items from the Shaker communities in Massachusetts; after that, the series proceed alphabetically by state. The last series contains materials that do not have a confirmed community connection.]]></content>
 												<extent_linear>6.56</extent_linear>
